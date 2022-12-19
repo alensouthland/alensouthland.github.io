@@ -5,6 +5,7 @@ body    {
     padding: 10% 25%;
     line-height: 2.2em;
     font-family: 'Work Sans', sans-serif;
+    text-size-adjust: auto;
 }
 
 .hi {
@@ -82,4 +83,11 @@ footer  {
     text-align: center;
     /*background-color: #e5d8d1;*/
     border-radius: 12px;
+}
+
+
+@media screen and (max-width: 800px) {
+    body {
+      padding: 10%;
+    }
 }
