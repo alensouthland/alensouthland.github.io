@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+body    {
+    background-color: #F8EDE3;
+    padding: 20% 0%;
+    line-height: 2.5em;
+}
+
+div     {
+    color: #495579;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Inter', sans-serif;
+}
