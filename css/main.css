@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 body    {
     background-color: #F8EDE3;
-    padding: 20% 0%;
+    padding: 10% 25%;
     line-height: 2.5em;
 }
 
 div     {
     color: #3C2A21;
-    text-align: center;
+    text-align: left;
     font-size: 1.2em;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
