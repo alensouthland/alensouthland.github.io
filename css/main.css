@@ -88,6 +88,16 @@ footer  {
 
 @media screen and (max-width: 800px) {
     body {
-      padding: 10%;
+      padding: 8%;
+    }
+
+    footer {
+        padding: 1em 0em;
+    }
+
+    .instagram, .instagram:hover, .behance, .behance:hover, .linkedin, .linkedin:hover  {
+        padding: 0em, 0.5em;
+        text-align: center;
+        width: 100%;
     }
 }
