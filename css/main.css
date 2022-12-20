@@ -9,79 +9,43 @@ body    {
 }
 
 .hi {
-    text-align: left;
     font-size: 1.5em;
 }
 
 .intro  {
-    text-align: left;
     font-size: 1.2em;
 }
 
 footer  {
     padding: 1em 0em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: 'Work Sans', sans-serif;
 }
 
-.instagram  {
+.instagram, .behance, .linkedin  {
     padding: 0em 1em 0em 0em;
     text-decoration: none;
-    font-size: 1em;
-    font-weight: 500;
-    font-family: 'Work Sans', sans-serif;
     color: #a48676;
-    /*background: -webkit-linear-gradient(left, #7C65DA, #DB1CB1, #E54290, #ffaa00);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;*/
 }
 .instagram:hover  {
-    padding: 0em 1em 0em 0em;
-    text-decoration: none;
-    font-size: 1em;
-    font-weight: 500;
-    font-family: 'Work Sans', sans-serif;
-    /*color: #a48676;*/
     background: -webkit-linear-gradient(left, #7C65DA, #DB1CB1, #E54290, #ffaa00);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.behance    {
-    padding: 0em 1em 0em 0em;
-    text-decoration: none;
-    color: #a48676;
-    font-size: 1em;
-    font-weight: 500;
-    font-family: 'Work Sans', sans-serif;
-}
+
 .behance:hover    {
-    padding: 0em 1em 0em 0em;
-    text-decoration: none;
-    color: #053EFF;
-    font-size: 1em;
-    font-weight: 500;
-    font-family: 'Work Sans', sans-serif;
-}
-.linkedin    {
-    padding: 0em 1em 0em 0em;
-    text-decoration: none;
-    color: #a48676;
-    font-size: 1em;
-    font-weight: 500;
-    font-family: 'Work Sans', sans-serif;
+    color: #144bff;
 }
 .linkedin:hover    {
-    padding: 0em 1em 0em 0em;
-    text-decoration: none;
     color: #0077B5;
-    font-size: 1em;
-    font-weight: 500;
-    font-family: 'Work Sans', sans-serif;
 }
 
 .projects   {
     color: #d3c0b5;
     padding: 2em 0em;
     text-align: center;
-    /*background-color: #e5d8d1;*/
+    background-color: #F8EDE3;
     border-radius: 12px;
 }
 
@@ -100,3 +64,12 @@ footer  {
         
     }
 }
+
+/*   DARK MODE with system theme
+@media (prefers-color-scheme: dark) {
+    body    {
+        background-color: #3f332f;
+        color: #dbc3ac;
+    };
+}
+*/
