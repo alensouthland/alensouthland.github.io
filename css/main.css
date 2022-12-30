@@ -103,6 +103,9 @@ a {
   overflow: hidden; 
   width: 800px;
 }
+.tab2 {
+  display: none;
+}
 
 .tablinks {
   padding: 0em;
@@ -182,12 +185,27 @@ a {
     margin-right: auto;
   }
 
+  .tab    {
+    display: none;
+  } 
+
+  .tab2 {
+    overflow: hidden; 
+    width: 800px;
+    font-variant: small-caps;
+    text-decoration: underline;
+    font-size: 1.4em;
+    font-weight: 600;
+    color: #F96849;
+    display: inline;
+  }
+
   .timeline p   {
     line-height: 1.8em;
   }
 
   footer {
-    padding: 0.5em 0em;
+    padding: 2em 0em;
   }
 
   .instagram, .instagram:hover, .behance, .behance:hover, .linkedin, .linkedin:hover  {
