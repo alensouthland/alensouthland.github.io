@@ -1,17 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 body    {
-    background-color: #F8EDE3;
-    color: #3C2A21;
-    padding: 4em 26% 5% 24%;
-    line-height: 2.1em;
-    font-family: 'Work Sans', sans-serif;
-    text-size-adjust: auto;
+  background-color: #F8EDE3;
+  color: #3C2A21;
+  padding: 4em 7% 5% 5%;
+  line-height: 2.1em;
+  font-family: 'Work Sans', sans-serif;
+  text-size-adjust: auto;
+
+  max-width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 a {    
     text-decoration: none;
     color: #3C2A21;
 }
+
+
 .hi {
   font-size: 1.5em;
   padding-top: 0.1em;
@@ -35,10 +42,9 @@ a {
 }
 
 .timeline  {
-  width: 100%;
+
   line-height: 1.2em;
   padding: 0em 0em 2em 0em;
-  float: left;
 }
 
 .instagram, .behance, .linkedin, .VSCO, .small_link  {
@@ -77,10 +83,6 @@ a {
   padding: 0em 0em 1.2em 0em;
   transition: 0.3s;
   rotate: -2deg;
-
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
 }
 
 .profile_img img:hover  {
@@ -99,7 +101,7 @@ a {
 /* Style the tab */
 .tab {
   overflow: hidden; 
-  width: 100%;
+  width: 800px;
 }
 
 .tablinks {
@@ -128,6 +130,7 @@ a {
 /* Create an active/current tablink class */
 .tab button.active {
   color: #F96849;
+  text-decoration: underline;
 }
   
 /* Style the tab content */
@@ -137,7 +140,7 @@ a {
 
 .tabcontent a {
   float: left;
-  width: 100%;
+  width: 95%;
   font-size: 0.9em;
   font-weight: 600;
   color:#3C2A21;
@@ -155,7 +158,11 @@ a {
 
 @media screen and (max-width: 1035px) {
   body  {
-    padding: 4em 20% 5% 20%;
+    padding: 4em 10.5% 5% 10.5%;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .timeline p   {
@@ -164,9 +171,15 @@ a {
 
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   body {
-    padding: 2em 6% 10% 6%;
+    padding: 4em 10.5% 10% 10.5%;
+  }
+
+  .profile_img  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .timeline p   {
