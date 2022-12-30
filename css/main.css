@@ -81,12 +81,12 @@ a {
   border: 16px solid white;
   background-color: white;
   padding: 0em 0em 1.2em 0em;
-  transition: 0.3s;
+  transition: max-width 0.5s, rotate 0.5s;
   rotate: -2deg;
 }
 
 .profile_img img:hover  {
-  transition: 0.4s;
+  transition: 0.2s;
   rotate: 1deg;
   max-width: 270px;
 }
@@ -146,12 +146,12 @@ a {
   color:#3C2A21;
   border-radius: 10px;
   padding: 0.2em 0em;
-  transition: 0.3s;
+  transition: padding 0.1s;
 }
 
 .tabcontent a:hover  {
   float: left;
-  transition: 0.3s;
+  transition: 0.2s;
   background-color: rgb(241, 229, 215);
   padding: 0.2em 1em;
 }
