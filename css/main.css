@@ -178,6 +178,10 @@ a {
   body {
     padding: 4em 6% 10% 6%;
   }
+  
+  .profile_img  {
+    padding: 2em 0em 2em 0em;
+  }
 
   .profile_img  img{
     display: block;
