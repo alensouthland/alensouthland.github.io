@@ -2,8 +2,8 @@
 body    {
     background-color: #F8EDE3;
     color: #3C2A21;
-    padding: 10% 25%;
-    line-height: 2.2em;
+    padding: 4em 26% 5% 24%;
+    line-height: 2.1em;
     font-family: 'Work Sans', sans-serif;
     text-size-adjust: auto;
 }
@@ -13,19 +13,45 @@ a {
     color: #3C2A21;
 }
 .hi {
-    font-size: 1.5em;
+  font-size: 1.5em;
+  padding-top: 0.1em;
+  width: fit-content;
+  float: left;
+  background-color: none;
+}
+.rightlink  {
+  color: #a48676;
+  float: right;
+  font-size: 1.2em;
+  padding: 0em 0.8em 0.1em 0.8em;
+  font-weight: 600;
+  border-radius: 12px;
+  font-variant: small-caps;
 }
 .intro  {
-    font-size: 1.2em;
+  font-size: 1.1em;
+  padding: 1em 0em 2em 0em;
+  float: left;
 }
-.instagram, .behance, .linkedin, .VSCO  {
-    padding: 0em 1em 0em 0em;
-    text-decoration: none;
-    color: #c9b7a7;
+
+.timeline  {
+  width: 100%;
+  line-height: 1.2em;
+  padding: 0em 0em 2em 0em;
+  float: left;
+}
+
+.instagram, .behance, .linkedin, .VSCO, .small_link  {
+  padding: 0em 1em 0em 0em;
+  float: left;
+  text-decoration: none;
+  color: #c9b7a7;
+  font-weight: 400;
 }
 .instagram:hover  {
     background: -webkit-linear-gradient(left, #7C65DA, #DB1CB1, #E54290, #ffaa00);
   -webkit-background-clip: text;
+  background-clip: none;
   -webkit-text-fill-color: transparent;
 }
 .behance:hover    {
@@ -38,64 +64,94 @@ a {
     color: #141414;
 }
 
+.profile_img  {
+  width: 100%;
+  padding: 2em 0em 1em 0em;
+  float: left;
+}
+
+.profile_img  img{
+  max-width: 250px;
+  border: 16px solid white;
+  background-color: white;
+  padding: 0em 0em 1.2em 0em;
+  rotate: -2deg;
+
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.rightlink:hover {
+  background-color: rgb(241, 229, 215);
+  color: #3C2A21;
+}
+
 
   
-  /* Style the tab */
-  .tab {
-    overflow: hidden;
-  }
+/* Style the tab */
+.tab {
+  overflow: hidden; 
+  width: 100%;
+}
 
-  .tablinks {
-    padding: 0em;
-  }
+.tablinks {
+  padding: 0em;
+  font-variant: small-caps;
+  font-size: 1.4em;
+}
   
-  /* Style the buttons inside the tab */
-  .tab button {
-    background-color: inherit;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    /*transition: 0.3s;*/
-    color: #c9b7a7;
-    font-weight: 600;
-    padding: 0em 1em 0em 0em;
-  }
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  /*transition: 0.3s;*/
+  color: #c9b7a7;
+  font-weight: 600;
+  padding: 0em 1em 0em 0em;
+}
   
-  /* Change background color of buttons on hover */
-  .tab button:hover {
-    color: #a48676;
-  }
+/* Change background color of buttons on hover */
+.tab button:hover {
+  color: #a48676;
+}
   
-  /* Create an active/current tablink class */
-  .tab button.active {
-    color: #F96849;
-    text-decoration: underline;
-  }
+/* Create an active/current tablink class */
+.tab button.active {
+  color: #F96849;
+}
   
-  /* Style the tab content */
-  .tabcontent {
-    display: none;
-    border-top: none;
-    background-color: #F8EDE3;
-    border-radius: 12px;
-  }
+/* Style the tab content */
+.tabcontent {
+  padding: 0em 0em 200px 0em;
+}
 
-  .project  {
-    font-size: 0.9em;
-    font-weight: 600;
-    color:#3C2A21;
-    border-radius: 10px;
-    padding: 0.2em 0em;
-  }
-  .project:hover  {
-    background-color: rgb(241, 229, 215);
-    padding: 0.2em 1em;
+.tabcontent a {
+  float: left;
+  width: 100%;
+  font-size: 0.9em;
+  font-weight: 600;
+  color:#3C2A21;
+  border-radius: 10px;
+  padding: 0.2em 0em;
+}
+
+.tabcontent a:hover  {
+  float: left;
+  background-color: rgb(241, 229, 215);
+  padding: 0.2em 1em;
 }
 
 
 @media screen and (max-width: 800px) {
   body {
-    padding: 10%;
+    padding: 2em 10% 10% 10%;
+  }
+
+  .timeline p   {
+    line-height: 1.8em;
   }
 
   footer {
@@ -105,4 +161,12 @@ a {
   .instagram, .instagram:hover, .behance, .behance:hover, .linkedin, .linkedin:hover  {
     padding: 0em, 1em, 0em, 0em;
   }
+}
+
+@media screen and (max-width: 1035px) {
+
+  .timeline p   {
+    line-height: 1.6em;
+  }
+
 }
