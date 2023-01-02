@@ -42,7 +42,6 @@ a {
 }
 
 .timeline  {
-
   line-height: 1.2em;
   padding: 0em 0em 2em 0em;
 }
@@ -72,7 +71,7 @@ a {
 
 .profile_img  {
   width: 100%;
-  padding: 2em 0em 1em 0em;
+  padding: 2em 0em 1.5em 0em;
   float: left;
 }
 
@@ -80,9 +79,10 @@ a {
   max-width: 250px;
   border: 16px solid white;
   background-color: white;
-  padding: 0em 0em 1.2em 0em;
+  padding: 0em 0em 1.8em 0em;
   transition: max-width 0.5s, rotate 0.5s;
   rotate: -2deg;
+  border-radius: 4px;
 }
 
 .profile_img img:hover  {
@@ -90,6 +90,14 @@ a {
   rotate: 1deg;
   max-width: 259px;
 }
+
+.eating_image {
+  margin: -15.7px 0em 2em 2em;
+  font-size: 0.6em;
+  opacity: 0.4;
+  rotate: -2deg;
+}
+
 
 .rightlink:hover {
   background-color: rgb(241, 229, 215);
@@ -162,7 +170,7 @@ a {
 
 @media screen and (max-width: 1035px) {
   body  {
-    padding: 4em 10.5% 5% 10.5%;
+    padding: 3em 10.5% 5% 10.5%;
     max-width: 100%;
     display: block;
     margin-left: auto;
@@ -177,9 +185,9 @@ a {
 
 @media screen and (max-width: 600px) {
   body {
-    padding: 4em 6% 10% 6%;
+    padding: 2em 6% 10% 6%;
   }
-  
+
   .profile_img  {
     padding: 2em 0em 2em 0em;
   }
@@ -198,7 +206,7 @@ a {
     overflow: hidden; 
     width: 800px;
     font-variant: small-caps;
-    text-decoration: underline;
+    text-decoration: none;
     font-size: 1.4em;
     font-weight: 600;
     color: #F96849;
