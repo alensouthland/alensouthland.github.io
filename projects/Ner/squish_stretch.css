@@ -1,0 +1,61 @@
+/* 
+	Weight axis: 100 – 700
+	Width axis: 85 – 100
+*/
+@font-face {
+	font-family: "IDC Ner Variable";
+	src: url(IDCNerVariableGX.ttf);
+}
+
+.ner_squish_stretch {
+	font-family: "IDC Ner Variable", Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+.ner_latn {
+	font-weight: 100;
+	color: azure;
+	border-radius: 12px;
+	line-height: 1em;
+	font-size: 2em;
+	background-color: #1451d6;
+	padding: 0.9em 1em 0.5em 1em;
+	font-variation-settings: 'wdth' 300;
+	animation: breathein 4000ms infinite forwards;
+}
+
+.ner_mal {
+	font-weight: 100;
+	color: #24355a;
+	line-height: 1em;
+	border-radius: 12px;
+	font-size: 2em;
+	background-color: #fac515;
+	padding: 0.9em 1em 0.5em 1em;
+	font-variation-settings: 'wdth' 500;
+	animation: breatheout 4000ms infinite forwards;
+}
+
+@keyframes breathein {
+	50% {
+		font-variation-settings: 'wdth' 500;
+	}
+	
+	100% {
+		font-variation-settings: 'wdth' 300;
+	}
+}
+
+@keyframes breatheout {
+	50% {
+		font-variation-settings: 'wdth' 300;
+	}
+	
+	100% {
+		font-variation-settings: 'wdth' 500;
+	}
+}
+
+
+
+

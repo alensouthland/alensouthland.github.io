@@ -44,11 +44,11 @@ a {
 .project_img  {
     width: 100%;
     padding: 1em 0em 1em 0em;
-    float: left;
+    display: block;
 }
   
 .project_img  img {
-    padding: 3em 0em 1em 0em;
+    padding: 1em 0em 1em 0em;
     border-radius: 12px;
 
     max-width: 800px;
