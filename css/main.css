@@ -202,7 +202,7 @@ a {
     font-size: 1.4em;
     font-weight: 600;
     color: #F96849;
-    display: inline;
+    display: block;
   }
 
   .timeline p   {
