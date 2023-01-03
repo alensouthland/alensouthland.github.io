@@ -15,6 +15,14 @@ body    {
     display: block;
 }
 
+.header     {
+    padding-bottom: 2.25em;
+}
+
+footer  {
+    width: 800px;
+}
+
 a {    
     text-decoration: none;
     color: #3C2A21;
@@ -22,7 +30,7 @@ a {
 
 .hi {
     font-size: 1.5em;
-    padding-top: 0.1em;
+    padding-top: 0.15em;
     width: fit-content;
     float: left;
     background-color: none;

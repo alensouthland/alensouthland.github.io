@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html> 
   <head>
     <title>Alen Antony Francis</title>
     <link rel="stylesheet" href="css/normalize.css">
@@ -11,53 +11,65 @@
   
   
   <body>
-    <a href="index.html" class="hi">Hi! 👋 I'm 
-      <span style="font-weight:600">Alen.</span>
-    </a>
-    <a href="about.html" class="rightlink">— profile</a>
-  
+    <div class="header">
+      <a href="index.html" class="hi">Hi! 👋 I'm 
+        <span style="font-weight:600">Alen.</span>
+      </a>
+      <a href="about.html" class="rightlink">— profile</a>
+    </div>
+
     <div class="intro">
       Hailing from Kerala (India), my interests and work revolve around technology and designing typefaces in Latin & Malayalam scripts. At present, I'm pursuing my MA in Typeface Design at the University of Reading, UK.
     </div>
-    
-  
-    <div class="tab">
-        <button class="tablinks" onclick="openCity(event, 'All')" id="defaultOpen">all projects</button>
-        <button class="tablinks" onclick="openCity(event, 'TD')">type design</button>
-        <button class="tablinks" onclick="openCity(event, 'UX')">ux.ui</button>
-        <button class="tablinks" onclick="openCity(event, 'Other')">other</button>
+
+
+    <div id="myBtnContainer" class="tab1">
+      <button class="btn active" onclick="filterSelection('all')"> all projects</button>
+      <button class="btn" onclick="filterSelection('td')"> type design</button>
+      <button class="btn" onclick="filterSelection('ux')"> ux.ui</button>
+      <button class="btn" onclick="filterSelection('ot')"> other</button>
     </div>
 
     <div class="tab2">projects</div>
-    
-    <div id="All" class="tabcontent">
-      <a href="projects/Ner/1_ner.html" class="proj">
-        <div>NER - Multiscript Typeface for Signages</div>
-      </a>
-      <a href="projects/Pixel/2_pixel.html" class="proj">
-        <div>ARCADE - A Pixel Font in Malayalam</div>
-      </a>
-      <a href="404.html" class="proj">
-        <div>DULE App - Meeting Scheduler</div>
-      </a>
-      <a href="404.html" class="proj">
-        <div>Illustrations for Campper.com</div>
-      </a>
-    </div>
 
-
-    <div id="TD" class="tabcontent">
-      <div><a href="projects/Ner/1_ner.html" class="proj">NER - Multiscript Typeface for Signages</a></div>
-      <div><a href="projects/Pixel/2_pixel.html" class="proj">ARCADE - A Pixel Font in Malayalam</a></div>
-    </div>
-    
-    <div id="UX" class="tabcontent">
-      <div><a href="404.html" class="proj">DULE App - Meeting Scheduler</a></div>
-    </div>
-    
-    <div id="Other" class="tabcontent">
-      <div><a href="404.html" class="proj">Illustrations for Campper.com</a></div>
-    </div>
+    <div class="container">
+      <div class="filterDiv td">
+        <a href="projects/Ner/1_ner.html">
+          <img class="home_thumb" src="./projects/Ner/1_proj_images/1_thumb.jpeg" alt="ner_thumb">
+          <div class="proj">
+            <p>NER - Multiscript Typeface for Signages</p>
+            <p style="opacity: 0.5;">2021</p>
+          </div>
+        </a>
+      </div>
+      <div class="filterDiv td">
+        <a href="projects/Pixel/2_pixel.html">
+          <img class="home_thumb" src="./projects/Pixel/2_proj_images/2_thumb.jpeg" alt="arcade_thumb">
+          <div class="proj">
+            <p>ARCADE - A Pixel Font in Malayalam</p>
+            <p style="opacity: 0.5;">2020</p>
+          </div>
+        </a>
+      </div>
+      <div class="filterDiv ux">
+        <a href="404.html">
+          <img class="home_thumb" src="./projects/Dule/3_proj_images/dule_thumb.png" alt="dule_thumb">
+          <div class="proj">
+            <p>DULE App - Meeting Scheduler ⚠️</p>
+            <p style="opacity: 0.5;">2021</p>
+          </div>
+        </a>
+      </div>
+      <div class="filterDiv ot">
+        <a href="404.html">
+          <img class="home_thumb" src="./projects/Campper/3_proj_images/camper sitting.jpeg" alt="campper_thumb">
+          <div class="proj">
+            <p>Illustrations for Campper.com ⚠️</p>
+            <p style="opacity: 0.5;">2018</p>
+          </div>
+        </a>
+      </div>
+   </div>
      
     <script src="js/main.js">
     </script>
