@@ -16,7 +16,7 @@ body    {
 }
 
 .header     {
-    padding-bottom: 2.25em;
+    width: 100%;
 }
 
 footer  {
@@ -28,11 +28,15 @@ a {
     color: #3C2A21;
 }
 
+.proj_description   {
+    width: 100%; 
+}
+
 .hi {
     font-size: 1.5em;
     padding-top: 0.15em;
     width: fit-content;
-    float: left;
+    display: inline-block;
     background-color: none;
 }
 .rightlink  {
@@ -96,6 +100,19 @@ footer {
 @media screen and (max-width: 1035px) {
     body  {
         padding: 3em 6% 5% 6%;
+    }
+
+    .hi {
+        display: inline-block;
+    }
+    .rightlink  {
+        display: block;
+        float: right;
+    }
+
+    .header     {
+        width: 100%;
+        line-height: 2.6em;
     }
 
     .project_img  img{
