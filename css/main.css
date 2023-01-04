@@ -69,12 +69,12 @@ a {
   float: left;
   padding: 0.6em 0em;
   width: 95%;
-  transition: padding 0.2s;
+  /*transition: padding 0.2s;*/
 }
 .filterDiv a:hover  {
   float: left;
   width: 95%;
-  transition: 0.2s;
+  /*transition: 0.2s;*/
   background-color: rgb(241, 229, 215);
   padding: 0.6em 0.7em;
   border-radius: 10px;
