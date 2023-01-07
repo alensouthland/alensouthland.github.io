@@ -95,6 +95,7 @@ a {
 .container {
   margin-top: 0.5em;
   overflow: hidden;
+  padding: 0em 0em 2em 0em;
 }
 
 .btn {
