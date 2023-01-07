@@ -51,7 +51,7 @@ a {
 
 .intro  {
   font-size: 1.1em;
-  padding: 1em 0em 2em 0em;
+  padding: 1em 0em 4em 0em;
   display: block;
   float: left;
 }
@@ -210,6 +210,10 @@ a {
 
   footer {
     padding: 2em 0em;
+  }
+  
+  intro {
+    padding: 1em 0em 2em 0em;
   }
 
   .filterDiv a  {
