@@ -1,15 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
+@font-face {
+	font-family: "Dref";
+	src: url(../DrefSansVF.ttf);
+}
+@font-face {
+	font-family: "Akulam";
+	src: url(../MATDTypefaceVF.ttf);
+}
+
+.test_notice  {
+  font-family: 'Akulam', sans-serif;
+  color: #3C2A21;
+  font-size: 1.2em;
+  padding: 0.6em 1.5em;
+  line-height: 2.1em;
+  font-variation-settings: "wght" 400;
+  border-radius: 12px;
+  font-variant: none;
+  background-color: #fffcf9;
+}
 
 /* STRUCTURE */
 
 body    {
-  background-color: #F8EDE3;
+  background-color: #F8EDE3;  
+  background-attachment: fixed;
   color: #3C2A21;
   padding: 4em 7% 2em 5%;
-  line-height: 2.1em;
-  font-family: 'Work Sans', sans-serif;
+  line-height: 2.2em;
+  font-family: 'Dref', sans-serif;
   text-size-adjust: auto;
+  font-variation-settings: "wdth" 7.1, "wght" 400;
 
   max-width: 800px;  
   margin-left: auto;
@@ -25,6 +47,22 @@ a {
     color: #3C2A21;
 }
 
+/*h4  {
+  font-variation-settings: "wght" 720;
+}*/
+
+.button {
+  color: #a48676;
+  font-size: 1.2em;
+  margin: 0em 0.8em 0.1em 0em;
+  font-weight: 600;
+  border-radius: 12px;
+  font-variant: small-caps;
+}
+.button:hover {
+  color: #F96849;
+}
+
 
 /* HEADER */
 
@@ -33,17 +71,21 @@ a {
   width: fit-content;
   background-color: none;
 }
+.alen {
+  font-variation-settings: "wght" 700;
+}
 
 .rightlink  {
   color: #a48676;
   font-size: 1.2em;
   padding: 0em 0.8em 0.1em 0.8em;
-  font-weight: 600;
+  font-variation-settings: "wght" 720;
   border-radius: 12px;
   font-variant: small-caps;
   float: right;
 }
 .rightlink:hover {
+  /*background-color: rgb(241, 229, 215);*/
   background-color: rgb(241, 229, 215);
   color: #3C2A21;
 }
@@ -63,7 +105,7 @@ a {
   float: left;
   width: 95%;
   font-size: 0.9em;
-  font-weight: 600;
+  font-variation-settings: "wght" 720, "wdth" 7.1;
 }
 .filterDiv a  {
   float: left;
@@ -100,13 +142,13 @@ a {
 
 .btn {
   font-variant: small-caps;
-  font-size: 1.4em;
+  font-size: 1.3em;
   background-color: inherit;
   border: none;
   outline: none;
   cursor: pointer;
   color: #c9b7a7;
-  font-weight: 600;
+  font-variation-settings: "wght" 720;
   padding: 0em 1em 0em 0em;
 }
 .btn:hover {
@@ -123,6 +165,8 @@ a {
   object-fit: fill;
   border-radius: 12px;
   float: left;
+  /*filter: grayscale(.3);*/
+  opacity: 1;
 }
 
 .proj {
@@ -159,7 +203,7 @@ a {
 
 .timeline  {
   line-height: 1.2em;
-  padding: 0em 0em 2em 0em;
+  padding: 0em 0em 1em 0em;
   display: block;
 }
 
@@ -178,12 +222,13 @@ a {
   padding: 0em 0em 1.8em 0em;
   transition: max-width 0.5s, rotate 0.5s;
   rotate: -2deg;
-  border-radius: 4px;
+  border-radius: 1px;
 }
 .profile_img img:hover  {
   transition: 0.2s;
   rotate: 1deg;
   max-width: 259px;
+  /*box-shadow: -7px 7px #c9b7a7;*/ 
 }
 
 /* TABLET */
@@ -211,10 +256,11 @@ a {
 
   footer {
     padding: 2em 0em;
+    width: 100%;
   }
-  
-  intro {
-    padding: 1em 0em 2em 0em;
+
+  .intro  {
+    padding: 1em 0em 2em 0em; 
   }
 
   .filterDiv a  {
