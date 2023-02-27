@@ -104,7 +104,7 @@ a {
 .fontbox  {
   border: var(--txtcolor) 2px solid;
   font-family: 'Akulam';
-  font-size: 40pt;
+  font-size: 35pt;
   line-height: 1.4em;
   padding: 0.5em;
   display: block;
